@@ -4,6 +4,7 @@ const auth = require('../middleware/auth')
 const router = new express.Router()
 const multer = require('multer')
 
+// registering a user
 router.post('/users', async (req, res) => {
     const user = new User(req.body)
 
