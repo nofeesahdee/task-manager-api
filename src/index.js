@@ -6,7 +6,7 @@ const Task = require('./models/task')
 const User = require('./models/user')
 
 const app = express()
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3001
 
 const multer = require('multer')
 const upload = multer({
